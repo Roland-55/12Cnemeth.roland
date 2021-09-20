@@ -11,17 +11,17 @@ namespace _2021._09._20
         static void Main(string[] args)
         {
             int szam=Convert.ToInt32(Console.ReadLine());
-            if (szam % 2<0) 
+            if (szam >= -30 && szam <40) 
 
            
             {
-                Console.WriteLine("A hőmérséklet fagy");
+                Console.WriteLine("A szám -30-nál nagyobb");
             }
 
             else
 
             {
-                Console.WriteLine("A hőmérséklet nem fagy");
+                Console.WriteLine("A szám 40-nél kisebb");
             }
 
 
