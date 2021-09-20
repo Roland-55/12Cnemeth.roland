@@ -15,13 +15,13 @@ namespace _2021._09._20
 
            
             {
-                Console.WriteLine("A szám páros");
+                Console.WriteLine("A szám pozitív");
             }
 
             else
 
             {
-                Console.WriteLine("A szám páratlan");
+                Console.WriteLine("A szám negatív");
             }
 
 
@@ -30,3 +30,4 @@ namespace _2021._09._20
         }
     }
 }
+
